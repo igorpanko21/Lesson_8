@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:regular,700,900&display=swap");
+
+body{
+    font-family: "Lato";
+    line-height: 160%;
+    color: #424551;
+}
+
+
+.cotainer {
+    max-width: 1230px;
+    margin: 0 auto;
+}
+.title {
+    font-size: 46px;
+    font-weight: 900;
+    margin-bottom: 40px;
+    color:  #1E212C;
+}
+.page__text {
+    margin-bottom: 48px;
+
+}
+.page__title {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.list li{
+  
+    margin-bottom: 4px;
+    min-height: 16px;
+}
+.list {
+    margin-bottom: 50px;
+    display: inline-block;
+}
+.list li:hover::before{
+    transform: scale(1.8);
+}
+
+.list li::before {
+    content: "";
+    display: inline-block;
+    background: url(../icon/check.png) 0 0 no-repeat;
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    transition: all 0.8s ease 0s;
+}
+ul li:not(:last-child){
+    margin-bottom: 10px;
+
+}
+.page__course {
+    
+}
+
+.title__course {
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+.title h2{
+    margin-bottom: 24px;
+}
+.text__senior {
+    font-size: 20px;
+    color: #787A80;
+    margin-bottom: 32px;
+}
+.lists__item {
+    font-weight: 700;
+    color: #424551;
+     margin-bottom: 32px;
+}
+.list__item li{
+    margin-bottom: 4px;
+}
+.text-course {
+    color: rgba(187, 12, 12, 0.705);
+    line-height: 1.8;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+}
+.lists__item li:first-child::before{
+    content: "";
+    display: inline-block;
+    background: url(../icon/Star.png) 0 0 no-repeat;
+    height: 16px;
+    width: 16px;
+    margin-right: 10px;
+    transition: all 0.8s ease 0s;
+}
+
+.lists__item li:hover:first-child::before{
+    transform:rotate(360deg);
+}
+.lists__item li:last-child::before{
+    content: "";
+    display: inline-block;
+    background: url(../icon/Play.png) 0 0 no-repeat;
+    height: 16px;
+    width: 16px;
+    margin-right: 10px;
+    transition: all 0.8s ease 0s;
+}
+.lists__item li:nth-child(2)::before{
+    content: "";
+    display: inline-block;
+    background: url(../icon/Profile.png) 0 0 no-repeat;
+    height: 16px;
+    width: 16px;
+    margin-right: 10px;
+    transition: all 0.8s ease 0s;
+}
+.lists__item li:hover:nth-child(2)::before{
+    transform: translate(30px, 20px) rotate(20deg);
+
+}
+.lists__item li:hover:last-child::before{
+    transform:scale(2, 0.5);}
+
